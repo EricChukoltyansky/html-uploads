@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://images.pexels.com/photos/1407305/pexels-photo-1407305.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+  font-family: "lobster";
+}
+.name ul li {
+  list-style-type: kannada;
+}
+#img_3 {
+  border: 1px solid blanchedalmond;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10vh;
+}
+
+h1,
+h3,
+.text {
+  text-align: center;
+
+  color: rgb(190, 188, 185);
+  font-weight: lighter;
+}
+.card_1,
+.card_2 {
+  background-color: white;
+
+  border: 1px solid #bacdd8;
+
+  padding: 8px;
+
+  border-radius: 12px;
+}
+.tag {
+  padding: 4px 8px;
+  border: 1px solid #e5eaed;
+
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: 600;
+
+  margin-top: 16px;
+}
+
+p {
+  font-size: 14px;
+  color: #000000;
+  line-height: 150%;
+}
+
+button {
+  border: none;
+  padding: 12px 24px;
+  border-radius: 50px;
+
+  font-weight: 600;
+  color: #0077ff;
+  background-color: #e0efff;
+
+  margin: 0 auto;
+  display: block;
+
+  cursor: pointer;
+}
+
+.card__details {
+  padding: 16px 8px 8px 8px;
+}
+
+.container {
+    margin: auto;
+    max-width: 80%;
+    overflow: auto;
+    padding: 0 20px;
+}
+#container_1,
+#container_2 {
+  max-width: 300px;
+
+  margin: 0 auto;
+
+  margin-top: 20vh;
+  float: left;
+}
+
+#container_1 {
+  margin-left: 450px;
+}
+.img_1,
+.img_2 {
+  border-radius: 12px;
+  height: 214px;
+}
+
+.img_2 {
+  width: 250px;
+}
+
+.outer_container {
+  display: inline-block;
+  width: 75%;
+}
+
+#navbar {
+  background: #cad4df;
+  border-radius: 25px;
+  overflow: auto;
+}
+
+#navbar h1 {
+  float: left;
+  padding-top: 20px;
+}
+
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+
+#navbar ul li {
+  float: left;
+  
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align:justify;
+  text-decoration: none;
+}
+
+#navbar ul li a:hover, #navbar ul li a.current {
+    background: beige;
+    color: #0a141f
+}
